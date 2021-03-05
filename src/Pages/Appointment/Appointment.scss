@@ -1,0 +1,67 @@
+body {
+    background: #000000;
+
+    .AppointmentMain {
+
+        .SchedulerBox {
+            background: #0c0d0d;
+            width: 75%;
+
+            h3 {
+                color: #bbb;
+            }
+
+            .scale {
+                border: 3px solid #bbb;
+                border-radius: 5px;
+                width: 22%;
+                position: absolute;
+
+                .square {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 3px;
+                }
+
+                .scale-text {
+                    margin-left: 10px;
+                    margin-top: -5px;
+                    color: #bbb;
+                    font-weight: bold;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 12px;
+                }
+    
+                .sq1 {
+                    background: #689ad3;
+                }
+    
+                .sq2 {
+                    background: #b96565;
+                }
+            }
+        }
+    
+        .SchedulerInputs {
+            
+            input {
+                width: 50%;
+                margin-top: 2rem;
+    
+                &[type=button], &:hover, &:active {
+                    background-color: #689ad3;
+                    border: none;
+                    color: #fff;
+                }
+    
+                font-weight: bold;
+            }
+    
+            .booked {
+                background-color: #b96565 !important;
+            }
+        }
+    
+    }
+}
